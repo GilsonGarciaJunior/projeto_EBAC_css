@@ -49,7 +49,7 @@ header li a:hover {
 }
 
 .articles article {
-    width: 28%;
+    width: 26%;
 }
 
 section {
@@ -69,11 +69,11 @@ section h2,
 .articles article a {
     background-color: blue;
     color: #fff;
-    padding: 8px;
+    padding: 16px;
     display: inline-block;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 8px;
+    margin-top: 16px;
 }
 .articles article a:hover {
     text-decoration: underline;
@@ -106,4 +106,16 @@ section h2 {
 
 #economy .articles article a {
     background-color: orangered;
+}
+
+#entretenimento {
+    background-color:pink;
+}
+
+#entretenimento .articles article a {
+    background-color:blueviolet;
+}
+
+#tecnologia { 
+    background-color:aqua ;
 }
